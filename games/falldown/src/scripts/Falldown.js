@@ -39,6 +39,22 @@
     console.log("destroy");
   };
 
+  proto.onLevelComplete = function Falldown_onLevelComplete() {
+    console.log("onLevelComplete");
+  };
+
+  proto.onGameComplete = function Falldown_onGameComplete() {
+    console.log("onGameComplete");
+  };
+
+  proto.onGameOver = function Falldown_onGameOver() {
+    console.log("onGameOver");
+  };
+
+  proto.onGameError = function Falldown_onGameError() {
+    console.log('onGameError');
+  };
+
   currentGame.Falldown = Falldown;
 
 }(window.Atari.currentGame));
