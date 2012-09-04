@@ -61,7 +61,12 @@
 
 		function toggleAudio(noAudio) {
 			Atari.GameShell.audioDisabled = noAudio;
-		}
+    }
+
+    // Autostart the game
+    //$(window).load(function() {
+      //$('#startGame').click();
+    //});
 
 	</script>
 
@@ -84,7 +89,7 @@
 
 	<div id="list">
 		<!-- YOUR GAME HERE -->
-		<a href="#" onclick="startGame('Falldown')">Falldown</a>
+		<a href="#" id="startGame" onclick="startGame('Falldown')">Falldown</a>
 
 		<input type="checkbox" id="noAudio" name="noAudio" value="noValue" onclick="toggleAudio(this.checked)" /><label for="noAudio">No Audio</label>
 		<input type="checkbox" id="forceTouch" name="forceTouch" value="noValue" /><label for="forceTouch">Touch</label>
@@ -96,8 +101,7 @@
 		<a href="#" onclick="toggleMute()">Toggle Mute</a>
 	</div>
 
-	<div id="progress" style="position: absolute; z-index: 6000000; background-color: #000000">
-	</div>
+	<div id="progress" style="position: absolute; z-index: 6000000; background-color: #000000"></div>
 
 </body>
 </html>

@@ -6,6 +6,9 @@
   "name":     "Falldown",
   "gameClass": "Falldown.js",
 
+  "width": "400",
+  "height": "400",
+
 	"dependencies":   [
 		"scripts/Falldown.js"
 	],
@@ -15,6 +18,8 @@
 	],
 
 	"assets": [
-		{"id":"wall", "src":"sounds/Wall_Hit_02.mp3", "data":2}
+		{"id":"ball", "src":"img/ball.png"},
+    {"id": "background", "src":"img/background.png"},
+    {"id": "brick", "src":"img/brick.png"}
 	]
 }
