@@ -1,0 +1,20 @@
+{
+	"splash":   "arcadeArt/background.jpg",
+	"titleArt": "arcadeArt/gameTitle.png",
+
+  "id":       "falldown",
+  "name":     "Falldown",
+  "gameClass": "Falldown.js",
+
+	"dependencies":   [
+		"scripts/Falldown.js"
+	],
+
+	"deployDependencies": [
+		"scripts/Falldown.min.js"
+	],
+
+	"assets": [
+		{"id":"wall", "src":"sounds/Wall_Hit_02.mp3", "data":2}
+	]
+}

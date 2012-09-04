@@ -1,0 +1,13 @@
+{
+	"Falldown": {
+		"id": "falldown",
+		"name": "Falldown",
+		"base": "games/falldown/",
+		"bgImage": "arcadeArt/background.jpg",
+		"instructions": [
+			
+			
+		],
+		"copyright":"MyGame &reg; &copy; 2012 Your company, inc."
+	}
+}
